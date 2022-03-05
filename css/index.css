@@ -1,11 +1,10 @@
-.over-text {
-    background-color: rgb(111, 134, 163);
-    z-index: 1;
-    opacity: 0.9;
+.text {
+    background-color: rgb(83, 228, 228);
     position: absolute;
     height: 80%;
-    width: 65%;
+    width: 50%;
     margin: 70px 0px 30px 200px;
-    align-items: center;
-    border-radius: 50px 0px 50px 0px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    color: green;
 }
