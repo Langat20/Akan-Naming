@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <h1 style="color:red; font-size:25px; text-align:center; margin-top:5%; font-weight:bolder; font-style:oblique"> AKAN NAMING SYSTEM</h1>
     <div class="text">
         <div class="content">
             <h2>Know your Akan Name</h2>
@@ -20,26 +21,34 @@
             <p>According to the Ghanian culture, The first name is usually derived from the day of the week on which the child was born. <br>
                 <br> The other names is the family's name.</p>
         </div>
-        <form action="">
-            <h4>Enter your birthday details to know your name</h4>
+        <div class="form">
+            <form action="">
+                <h4>Enter your birthday details to know your name</h4>
 
-            <label>Date</label><br>
-            <input type="text" id="day" placeholder="Day in digits" required><br><br>
-            <label>Month</label><br>
-            <input type="text" id="month" placeholder="Month in digits" required><br><br>
-            <label>Year</label><br>
-            <input type="text" id="year" placeholder="Year in digits" required><br><br>
-            <label>Gender</label><br> Male:<input type="radio" id="gender" name="gender" value="male" checked><br> Female: <input type="radio" id="gender" name="gender" value="female"><br><br>
-            <input type="button" onclick="getName()" class="btn1" value="Submit">
-        </form>
+                <label>Date</label><br>
+                <input type="text" id="day" placeholder="Day " required><br><br>
+                <label>Month</label><br>
+                <input type="text" id="month" placeholder="Month " required><br><br>
+                <label>Year</label><br>
+                <input type="text" id="year" placeholder="Year" required><br><br>
+                <label>Gender</label><br> Male:<input type="radio" id="gender" name="gender" value="male" checked><br> Female: <input type="radio" id="gender" name="gender" value="female"><br><br>
+                <input type="button" onclick="getName()" class="btn1" value="Submit">
+            </form>
+        </div>
     </div>
+    <footer>
+        <p>Langat Evans 2022, All Rights Reserved.</p>
+    </footer>
+
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
