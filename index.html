@@ -13,16 +13,26 @@
 </head>
 
 <body>
-    <section class="container-fluid landing">
-        <div class="text">
-            <div class="content">
-                <h2>Know your Akan Name</h2>
-                <hr>
-                <p>According to the Ghanian culture, The first name is usually derived from the day of the week on which the child was born. <br>
-                    <br> The other names is the family's name.</p>
-            </div>
+    <div class="text">
+        <div class="content">
+            <h2>Know your Akan Name</h2>
+            <hr>
+            <p>According to the Ghanian culture, The first name is usually derived from the day of the week on which the child was born. <br>
+                <br> The other names is the family's name.</p>
         </div>
-    </section>
+        <form action="">
+            <h4>Enter your birthday details to know your name</h4>
+
+            <label>Date</label><br>
+            <input type="text" id="day" placeholder="Day in digits" required><br><br>
+            <label>Month</label><br>
+            <input type="text" id="month" placeholder="Month in digits" required><br><br>
+            <label>Year</label><br>
+            <input type="text" id="year" placeholder="Year in digits" required><br><br>
+            <label>Gender</label><br> Male:<input type="radio" id="gender" name="gender" value="male" checked><br> Female: <input type="radio" id="gender" name="gender" value="female"><br><br>
+            <input type="button" onclick="getName()" class="btn1" value="Submit">
+        </form>
+    </div>
 
 
     <!-- Optional JavaScript -->
