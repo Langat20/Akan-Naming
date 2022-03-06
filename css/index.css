@@ -10,6 +10,7 @@ body {
     text-align: center;
     color: green;
     margin-left: 5%;
+    font-weight: bold;
 }
 
 .text {
@@ -25,6 +26,7 @@ body {
     color: orangered;
     margin-left: 5%;
     font-size: 15px;
+    font-weight: bold;
 }
 
 footer {
