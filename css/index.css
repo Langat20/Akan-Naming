@@ -11,3 +11,13 @@
 .text {
     display: flex;
 }
+
+.form {
+    background-color: rgb(83, 228, 228);
+    height: 400px;
+    width: 50%;
+    margin: 70px 0px 30px 200px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    color: green;
+}
