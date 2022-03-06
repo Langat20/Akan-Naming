@@ -12,7 +12,8 @@ There are no known bugs
 ## Technology used
 1. HTML5
 2. CSS
-3. Javascript
+3. Javascript 
+4. bootstrap
 ## Support and Contact Details
 Feel free to call me or email me with respective contacts detail:
 * +254728384999
