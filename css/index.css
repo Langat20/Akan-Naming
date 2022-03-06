@@ -4,13 +4,12 @@ body {
 
 .content {
     background-color: rgb(83, 228, 228);
-    height: 400px;
+    height: 450px;
     width: 500px;
-    /* margin: 70px 0px 30px 200px; */
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: green;
-    /* margin-right: 10%; */
+    margin-left: 5%;
 }
 
 .text {
@@ -21,12 +20,10 @@ body {
     background-color: rgb(147, 236, 236);
     height: 450px;
     width: 500px;
-    /* margin: 70px 0px 30px 200px; */
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: orangered;
     margin-left: 5%;
-    /* align-items: center; */
     font-size: 15px;
 }
 
