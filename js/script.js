@@ -23,6 +23,7 @@ function getName() {
         alert("invalid Date");
     } else if (mm <= 0 || mm > 12 || mm == "" || mm == 2 && dd > 29) {
         alert("invalid Month");
+
     } else if (Math.abs(birthDay) == 0 && gender === "male") {
         alert("Your Name is " + maleName[0]);
     } else if (Math.abs(birthDay) == 1 && gender === "male") {
