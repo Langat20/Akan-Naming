@@ -17,7 +17,6 @@ function getName() {
     } else {
         var gender = "female";
     }
-
     // form validation
     if (dd <= 0 || dd == "" || dd > 31) {
         alert("invalid Date");
