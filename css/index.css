@@ -10,12 +10,12 @@ body {
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: green;
-    /* margin-right: 10%; */
+    margin-right: 10%;
 }
 
 .text {
     display: flex;
-    /* margin: 30px; */
+    margin: 30px;
 }
 
 .form {
@@ -26,7 +26,7 @@ body {
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: green;
-    /* margin-left: 5%; */
+    margin-left: 5%;
 }
 
 footer {
