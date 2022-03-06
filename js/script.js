@@ -10,10 +10,6 @@ function getName() {
     var yy = parseInt(year);
     var cc = (yy - 1) / 100 + 1;
 
-    // var bDay = new Date(mm + "/" + dd + "/" + yy);
-    // var weekDay = bDay.getDay();
-
-
     var birthDay = parseInt(cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7;
 
     if (document.getElementById("gender").checked) {
